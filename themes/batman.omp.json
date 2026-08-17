@@ -58,7 +58,7 @@
           "foreground": "#1a1a1a",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
-          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
           "type": "python"
         },
         {
@@ -86,7 +86,11 @@
           "style": "diamond",
           "template": " \uf0e7 {{ .FormattedMs }} ",
           "trailing_diamond": "\ue0b4",
-          "type": "executiontime"
+          "type": "executiontime",
+          "properties": {
+            "threshold": 500,
+            "style": "austin"
+          }
         }
       ],
       "type": "rprompt"
