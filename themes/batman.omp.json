@@ -24,8 +24,8 @@
           "type": "path"
         },
         {
-          "background": "#3d3d3d",
-          "foreground": "#ffd700",
+          "background": "#ffd700",
+          "foreground": "#000000",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "branch_icon": "\ue725 ",
@@ -38,32 +38,32 @@
           "type": "git"
         },
         {
-          "background": "#ffd700",
-          "foreground": "#1a1a1a",
+          "background": "#404040",
+          "foreground": "#ffd700",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " \ue718 {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }} ",
           "type": "node"
         },
         {
-          "background": "#ffd700",
-          "foreground": "#1a1a1a",
+          "background": "#404040",
+          "foreground": "#ffd700",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " \ue627 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }} ",
           "type": "go"
         },
         {
-          "background": "#ffd700",
-          "foreground": "#1a1a1a",
+          "background": "#404040",
+          "foreground": "#ffd700",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
           "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
           "type": "python"
         },
         {
-          "background": "#4d4d4d",
-          "foreground": "#c0c0c0",
+          "background": "#1a1a1a",
+          "foreground": "#ffd700",
           "properties": {
             "time_format": "15:04:05"
           },
